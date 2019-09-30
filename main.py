@@ -14,10 +14,10 @@ import prepare
 
 
 def load_tweets(hashtag, since, count=100, filename='tweets.csv'):
-    consumer_key = 'X7utFtZDaZ5mXZ0lP34VNLuDq'
-    consumer_secret = 'a2E9wXTJkBNBsQvXhtlIAF3SGdlUmSrSgEfThLFx6p9OFOtp05'
-    access_token = '1568198431-Azyp9CoHBwjngOEynYEbArnsQWt8FmoVlU5LFUD'
-    access_token_secret = 'yCyt8Vk8lfXM1Zq3qFq2EOOfihODfeWBaiGukyCgyFsKD'
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_token_secret = ''
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
